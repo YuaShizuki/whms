@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include whms *.css
+recursive-include whms *.csv
+recursive-include whms *.html
+recursive-include whms *.ico
+recursive-include whms *.js
+recursive-include whms *.json
+recursive-include whms *.md
+recursive-include whms *.png
+recursive-include whms *.py
+recursive-include whms *.svg
+recursive-include whms *.txt
+recursive-exclude whms *.pyc

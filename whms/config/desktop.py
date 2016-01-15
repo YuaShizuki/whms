@@ -5,7 +5,7 @@ from frappe import _
 def get_data():
 	return {
 		"whms": {
-			"color": "red",
+			"color": "IndianRed",
 			"icon": "icon-building",
 			"type": "module",
 			"label": _("whms")
